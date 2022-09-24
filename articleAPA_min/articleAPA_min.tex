@@ -3,6 +3,7 @@
 % LATEX packages packages
 \usepackage[style=apa, backend=biber]{biblatex}
 \usepackage[american]{babel}
+\usepackage{ragged2e}
 \DeclareLanguageMapping{american}{american-apa}
 
 \addbibresource{bibfile.bib}
@@ -28,6 +29,8 @@
 
 \begin{document}
 \maketitle
+\justifying
+\setlength\parindent{10mm}
 The introduction .. \textcite{botvinick2001conflict}
 
 \textcite{botvinick2001conflict} found that .. \\
